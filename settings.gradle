@@ -1,0 +1,2 @@
+rootProject.name = "LocalizaUsuario"
+include ':app'
