@@ -84,7 +84,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     List<Address> listaEndereco = geocoder.getFromLocation(latitude, longitude, 1);
 
                     //Recuperar o local pelo endereço
-                    String enderecoLocal = "Av. Feliciano Correia, s/n - Jardim Satelite, São Paulo - SP, 04815-240";
+                    String enderecoLocal = "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200";
                     //List<Address> listaEndereco = geocoder.getFromLocationName(enderecoLocal, 1);
 
                     //testando se realmente temos um endereço
@@ -111,7 +111,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                         /*
                          * D/local: onLocationChanged:
-                         * Address[addressLines=[0:"R. Bonsucesso, 60 - Jardim Noronha, São Paulo - SP, 04853-192, Brazil"],
+                         * Address[addressLines=[0:"Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200"],
                          * feature=60,
                          * admin=São Paulo,
                          * sub-admin=São Paulo,
